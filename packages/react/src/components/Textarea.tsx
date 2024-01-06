@@ -30,4 +30,6 @@ export const Textarea = styled('textarea', {
   },
 })
 
+Textarea.displayName = 'Textarea'
+
 export type TextareaProps = ComponentProps<typeof Textarea>
